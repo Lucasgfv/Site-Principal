@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Style_Formulario.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Fornece ao navegador instruções sobre como controlar as dimensões e a escala da página -->
+    <!-- Para desing responsivo -->
+    <meta name="viewport" content="wght=device-width, inicial-sccale=1.0">
+</head>
+<body>
+    <section>
+        <form action="#" method="POST"> <!--method = "post" -> acresenta as informações no html para posteriormente ser enviado ao servidor-->
+            <h1>Cadastre-se</h1>
+            <fieldset>
+                <div class="conter">
+                    <!--required - indica que o preenchimento é obrigatorio -->
+                    <input type="text" required name="name" autofocus>
+                    <label>Name</label>
+                </div>
+                <div class="conter">
+                    <input type="text" required name="sobrenome">
+                    <label>Sobrenome</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="conter">
+                    <input type="text" required name="email">
+                    <label>E-mail</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="conter">
+                    <input type="text" required name="password" >
+                    <label>Senha</label>
+                </div>
+                <div class="conter">
+                    <input type="text" required name="confirm">
+                    <label>Confirmar senha</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div id="check">
+                    <input type="checkbox" required name="accept">
+                    <label>Aceitar os termos de uso</label>
+                </div>
+                <button>Criar conta</button>
+            </fieldset>
+
+            <a href="#">Ler termos de uso</a>
+        </form>
+    </section>
+    
+</body>
+</html>
