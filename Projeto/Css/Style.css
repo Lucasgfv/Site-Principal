@@ -1,0 +1,58 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    width: 100px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    background-color: rgb(39, 39, 39);
+    overflow: hidden;
+    color: white;
+}
+/*Possisão linear da navegação*/
+.topnav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+}
+/*Parte do h1*/
+.logo{
+    color: #000;
+    letter-spacing: 1px;
+    float: left;
+    font-size: 22px;
+    line-height: 88px;
+    padding: 0 6px;
+}
+/*Part modo de configuração da navegação*/
+.nav{
+    float: right;
+    line-height: 60px;
+    text-decoration: none;
+    margin: 0;
+    font-size: 17px;
+    color: white;
+}
+/*configurção de letra*/
+.nav ul{
+    list-style: none;
+}
+/*Possisão linear da navegação*/
+.nav ul li{
+    display: inline-block;
+}
+/*Parte da navegação*/
+.nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: lighter;
+    padding: 0 20px;
+}
