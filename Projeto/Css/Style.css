@@ -24,17 +24,17 @@ header{
     height: 80px;
 }
 /*Parte do h1*/
-.logo{
-    color: #000;
-    letter-spacing: 1px;
-    float: left;
-    font-size: 22px;
-    line-height: 88px;
-    padding: 0 6px;
+.img_logo{
+    height: 200px;
+    width: 200px;
+    margin-left: 650px;
+    margin-bottom: none;
 }
 /*Part modo de configuração da navegação*/
 .nav{
-    float: right;
+    position: relative;
+    align-items: center;
+    display: block;
     line-height: 60px;
     text-decoration: none;
     margin: 0;
@@ -44,6 +44,7 @@ header{
 /*configurção de letra*/
 .nav ul{
     list-style: none;
+    text-align: center;
 }
 /*Possisão linear da navegação*/
 .nav ul li{
