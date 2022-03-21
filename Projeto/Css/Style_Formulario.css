@@ -22,6 +22,9 @@ body{
     font-family: "oppinsP", sans-serif;
     background-color: white;
 }
+header{
+    height: 300px;
+}
 section{
     background: #fff;
     padding: 30px 5px;
@@ -130,7 +133,7 @@ form a{
     padding-top: 20px;
     text-transform: uppercase;
     text-align: center;
-     display: block;
+    display: block;
 }
 form a:hover{
     color: #1111;
